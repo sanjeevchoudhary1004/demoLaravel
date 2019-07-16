@@ -46,3 +46,11 @@ Route::get('/update/{id}','RegistrationController@update');
 Route::post('/editform/{id}','RegistrationController@edit');
 Route::get('/read/{id}','RegistrationController@read');
 Route::get('/destroy/{id}','RegistrationController@delete');
+
+//Route::get('export', 'UserController@export')->name('export');
+//Route::get('importExportView', 'UserController@importExportView');
+//Route::post('import', 'UserController@import')->name('import');
+
+Route::get('importExport', 'UserController@importExport');
+Route::get('downloadExcel/{type}', 'UserController@downloadExcel');
+Route::post('importExcel', 'UserController@importExcel');

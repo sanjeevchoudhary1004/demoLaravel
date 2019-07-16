@@ -28,6 +28,9 @@
       <li class="nav-item">
         <a class="nav-link" href="{{url('/form')}}">RegistrationForm</a>
       </li>
+      <li class="nav-item">
+        <a class="nav-link" href="{{url('/importExport')}}">Excel_View</a>
+      </li>
     </ul>
     
   </div>
